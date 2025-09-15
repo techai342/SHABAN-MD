@@ -4,19 +4,24 @@
   "logo": "https://ik.imagekit.io/mrshaban/Picsart_25-02-01_22-47-44-239.jpg",
   "keywords": ["SHABAN-MD"],
   "success_url": "/",
-
-    "stack": "container",
+  "stack": "container",
   "env": {
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true,
       "value": ""
     },  
-    
-    "STICKER_NAME": {
-      "description": "type your sticker pack name.",
-      "required": false,
-      "value": "SHABAN-MD︎"
+
+    "HEROKU_API_KEY": {
+      "description": "Add your Heroku account API key here.",
+      "required": true,
+      "value": ""
+    },
+
+    "HEROKU_APP_NAME": {
+      "description": "Add your Heroku app name here.",
+      "required": true,
+      "value": ""
     },
     
     "OWNER_NAME": {
@@ -24,7 +29,7 @@
       "required": false,
       "value": "MR-SHABAN"
     }, 
-    
+
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
@@ -46,7 +51,7 @@
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
       "required": false,
-      "value": "public"   
+      "value": "public"
     },
     
     "ALWAYS_ONLINE": {
@@ -66,13 +71,6 @@
       "required": true,
       "value": "false"
     }, 
-
-    "AUTO_STICKER": {
-      "description": "Make it true if you want automatic sticker.",
-      "required": true,
-      "value": "false"
-    }, 
-
 
     "AUTO_STATUS_SEEN": {
       "description": "Make it true for automatic status seen.",
@@ -96,21 +94,13 @@
       "description": "Type custom message on status reply",
       "required": true,
       "value": "*SᴇᴇN YᴏᴜʀE SᴛᴀᴛᴜS JᴜsT NᴏW Sʜᴀʙᴀɴ-Mᴅ 𓅓*"
-   
-     }, 
+    }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
       "value": "SHABAN-MD V5"
-
-     },
-     
-    "DELETE_LINK": {
-      "description": "Make it true if you want bot auto remove group link.",
-      "required": true,
-      "value": "false"
-    }, 
+    },
     
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto kick member remove group link.",
@@ -132,13 +122,6 @@
      
     "ANTI_CALL": {
       "description": "Make it true if you want bot auto call rejected.",
-      "required": true,
-      "value": "false"
-      
-    }, 
-    
-    "ANTI_BAD_WORD": {
-      "description": "Make it true if you want bot auto delete bad words.",
       "required": true,
       "value": "false"
     }, 
@@ -165,7 +148,6 @@
       "description": "Make it true if you want custom reactions.",
       "required": true,
       "value": "false"
-      
     }, 
     
     "CUSTOM_REACT_EMOJIS": {
@@ -191,13 +173,11 @@
       "required": true,
       "value": "false"
     }
-
-},
-
-     "buildpacks": [
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-        }
-     ],
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
   "stack": "heroku-24"
 }
