@@ -10,7 +10,7 @@
     "node": ">=24.8.0"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "github:Jeliostarr/DEV-Baileys#main",
+    "@whiskeysockets/baileys": "github:Jeliostarr/DEV-Baileys",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@dark-yasiya/yt-dl.js": "latest",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
