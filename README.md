@@ -90,6 +90,7 @@ href="https://github.com/MRSHABAN45/SHABAN-MD/graphs/commit-activity"><img heigh
 **_✠ FREE DEPLOYMENT OF SHABAN MD GITHUB WORKFLOW CODE NEW ADD ERROR FIXED ✠_**
 
 ```
+
 name: Node.js CI
 
 on:
@@ -107,7 +108,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [24.8.0]   # Specific Node.js version set
+        node-version: [20.x]   # Specific Node.js version set to 20.x
 
     steps:
     - name: Checkout repository
