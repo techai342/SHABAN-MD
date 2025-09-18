@@ -58,7 +58,7 @@ href="https://github.com/MRSHABAN45/SHABAN-MD/graphs/commit-activity"><img heigh
   
 -------------
 
-  <a href='https://noble-aime-sk66-857126af.koyeb.app/' target="_blank">
+  <a href='https://smd-pair.zone.id/' target="_blank">
     <img src='https://img.shields.io/badge/PAIR_CODE-FF8C00?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
   </a></br>
 
