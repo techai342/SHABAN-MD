@@ -9,10 +9,6 @@
     "restart": "pm2 restart SHABAN-MD",
     "heroku-postbuild": "npm install --legacy-peer-deps || npm install --force"
   },
-  "engines": {
-    "node": "20.x",
-    "npm": "10.x"
-  },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.19",
     "@adiwajshing/keyed-db": "^0.2.4",
