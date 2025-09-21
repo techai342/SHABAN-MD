@@ -4,7 +4,7 @@
   "logo": "https://ik.imagekit.io/mrshaban/Picsart_25-02-01_22-47-44-239.jpg",
   "keywords": ["SHABAN-MD"],
   "success_url": "/",
-  "stack": "heroku-24",
+  "stack": "container",
   "env": {
     "SESSION_ID": {
       "description": "Put the session-id here.",
@@ -136,5 +136,6 @@
     {
       "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
     }
-  ]
-    }
+  ],
+  "stack": "heroku-24"
+}
