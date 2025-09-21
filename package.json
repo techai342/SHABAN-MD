@@ -6,7 +6,8 @@
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name SHABAN-MD",
     "stop": "pm2 stop SHABAN-MD",
-    "restart": "pm2 restart SHABAN-MD"
+    "restart": "pm2 restart SHABAN-MD",
+    "heroku-postbuild": "npm install --legacy-peer-deps || npm install --force"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.19",
@@ -44,7 +45,7 @@
     "sequelize": "^6.37.5",
     "sqlite3": "^5.1.7-rc.0",
     "dotenv": "^16.5.0",
-    "jimp": "latest",
+    "jimp": "^0.16.1",
     "api-dylux": "latest",
     "@mrnima/tiktok-downloader": "1.0.0",
     "@mrnima/facebook-downloader": "1.0.0",
