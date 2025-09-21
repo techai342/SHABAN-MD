@@ -52,6 +52,7 @@
     "jimp": "^0.16.1",
     "sharp": "^0.32.1",
     "node-addon-api": "^8.2.0",
+    "undici": "^5.25.0",
     "api-dylux": "latest",
     "@mrnima/tiktok-downloader": "1.0.0",
     "@mrnima/facebook-downloader": "1.0.0",
