@@ -9,22 +9,21 @@
     "restart": "pm2 restart SHABAN-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.19",
+    "@whiskeysockets/baileys": "6.7.19",
     "@adiwajshing/keyed-db": "^0.2.4",
-    "@dark-yasiya/yt-dl.js": "latest",
-    "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@vitalets/google-translate-api": "^9.2.1",
+     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "pino": "^9.5.0",
     "util": "^0.12.5",
     "express": "latest",
     "moment-timezone": "^0.6.0",
-    "axios": "^1.10.0",
+    "axios": "^1.7.9",
     "crypto-digest-sync": "^1.0.0",
     "crypto-js": "latest",
     "file_size_url": "1.0.4",
     "fs-extra": "^11.1.0",
-    "ffmpeg": "^0.0.4",
     "fluent-ffmpeg": "^2.1.2",
+    "ffmpeg": "^0.0.4",
     "form-data": "^4.0.0",
     "google-tts-api": "^2.0.2",
     "path": "^0.12.7",
@@ -39,9 +38,9 @@
     "yt-search": "2.11.1",
     "sequelize": "^6.37.5",
     "sqlite3": "^5.1.7-rc.0",
-    "dotenv": "^16.5.0",
+    "dotenv": "^16.0.0",
     "jimp": "latest",
     "api-dylux": "latest",
-    "pm2": "^6.0.8"
+    "pm2": "^6.0.13"
   }
 }
