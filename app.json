@@ -65,6 +65,12 @@
       "required": true,
       "value": "false"
     }, 
+    
+    "AUTO_CHATBOT": {
+      "description": "Make true ur false AutoChatBot On Off",
+      "required": true,
+      "value": "false"
+    }, 
 
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
@@ -156,4 +162,4 @@
     }
   ],
   "stack": "heroku-24"
-    }
+  }
