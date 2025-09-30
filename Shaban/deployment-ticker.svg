@@ -57,7 +57,7 @@
     </text>
     <text x="22" y="64" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="600"
           font-size="12" fill="#9aa0ff" opacity="0.9" style="letter-spacing:0.4px;">
-      Deployment Platform
+      Deployment Templet Hain
     </text>
     <rect x="0" y="0" width="460" height="76" rx="10" fill="url(#shimmer)" opacity="0.35">
       <animate attributeName="x" from="-480" to="480" dur="3s" repeatCount="indefinite" />
@@ -70,25 +70,22 @@
     <rect x="24" y="86" width="1152" height="8" rx="8" ry="8" fill="url(#tickGrad)" opacity="0.45"/>
   </g>
 
-  <!-- Scrolling text group clipped to tickerClip -->
+  <!-- Scrolling text (SINGLE LINE) -->
   <g clip-path="url(#tickerClip)">
-    <g id="tickerContent" transform="translate(150,100)">
+    <g id="tickerContent" transform="translate(1200,100)">
       <text x="0" y="18" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="20" font-weight="700"
             fill="#ffffff" filter="url(#textGlow)" style="letter-spacing:0.9px;">
         ➤ Shaban MD MultiDevice WhatsApp Bot Deployment Platfrm Heroku Render Railway BotHosting Panel Free Host Site Any Vps Clouds Lightweight Very Fast Smoothly Working.
       </text>
-
       <rect x="-120" y="-18" width="220" height="44" fill="url(#shimmer)" opacity="0.28">
         <animate attributeName="x" from="-420" to="1200" dur="4.2s" repeatCount="indefinite"/>
       </rect>
     </g>
-
-    <!-- Slower scrolling speed -->
-    <animateTransform xlink:href="#tickerContent" attributeName="transform" attributeType="XML"
-                      type="translate" from="1200 100" to="-1400 100" dur="40s" repeatCount="indefinite"/>
+    <animateTransform xlink:href="#tickerContent" attributeName="transform" type="translate"
+                      from="1200 100" to="-1800 100" dur="40s" repeatCount="indefinite"/>
   </g>
 
-  <!-- LIVE box (overlay above text) -->
+  <!-- LIVE box -->
   <g transform="translate(30,88)">
     <rect x="0" y="0" width="100" height="36" rx="8" fill="#0b0f27" stroke="url(#neonGrad)" stroke-width="1"/>
     <text x="36" y="23" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" font-weight="700"
@@ -98,9 +95,4 @@
       <animate attributeName="opacity" values="1;0.4;1" dur="1.2s" repeatCount="indefinite"/>
     </circle>
   </g>
-
-  <g opacity="0.12">
-    <rect x="0" y="0" width="1200" height="140" fill="url(#scan)"/>
-  </g>
-  <rect x="24" y="128" width="1152" height="4" rx="2" fill="url(#neonGrad)" opacity="0.18" filter="url(#glow)"/>
 </svg>
