@@ -1,23 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-label="Ticker - DEPLOYMENTS">
   <defs>
+    <!-- Neon Gradient -->
     <linearGradient id="neonGrad" x1="0" x2="1" y1="0" y2="0">
       <stop offset="0" stop-color="#00f0ff"/>
       <stop offset="0.4" stop-color="#8a2be2"/>
       <stop offset="1" stop-color="#ff007a"/>
     </linearGradient>
 
+    <!-- Shimmer effect for text highlight -->
     <linearGradient id="shimmer" x1="0" x2="1">
       <stop offset="0%" stop-color="white" stop-opacity="0"/>
-      <stop offset="50%" stop-color="white" stop-opacity="0.20"/>
+      <stop offset="50%" stop-color="white" stop-opacity="0.2"/>
       <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
 
+    <!-- Ticker scroll background -->
     <linearGradient id="tickGrad" x1="0" x2="1">
       <stop offset="0%" stop-color="#0ff" stop-opacity="0.15"/>
       <stop offset="50%" stop-color="#fff" stop-opacity="0.06"/>
       <stop offset="100%" stop-color="#ff0" stop-opacity="0.12"/>
     </linearGradient>
 
+    <!-- Glow filter -->
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
@@ -38,17 +42,28 @@
       <rect width="4" height="2" y="0" fill="#000" opacity="0.06"/>
     </pattern>
 
+    <!-- Clip path for ticker content -->
     <clipPath id="tickerClip">
       <rect x="0" y="86" width="1200" height="44" rx="6" ry="6"/>
     </clipPath>
   </defs>
 
+  <!-- Background -->
   <rect width="100%" height="100%" fill="#020114"/>
   <rect x="8" y="8" width="1184" height="124" rx="14" ry="14" fill="url(#scan)" opacity="0.06"/>
 
-  <rect x="24" y="24" width="12" height="92" rx="6" fill="url(#neonGrad)" filter="url(#glow)"/>
+  <!-- Live indicator -->
+  <rect x="24" y="48" width="12" height="92" rx="6" fill="url(#neonGrad)" filter="url(#glow)"/>
+  <g transform="translate(30,88)">
+    <rect x="0" y="0" width="100" height="36" rx="8" fill="#0b0f27" stroke="url(#neonGrad)" stroke-width="1"/>
+    <text x="36" y="23" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" font-weight="700" fill="#dfe7ff">LIVE</text>
+    <circle cx="20" cy="18" r="6" fill="#ff4255">
+      <animate attributeName="r" values="6;9;6" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.4;1" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
-  <!-- DEPLOYMENTS title -->
+  <!-- DEPLOYMENTS title box -->
   <g transform="translate(48,20)">
     <rect x="0" y="0" width="460" height="76" rx="10" fill="rgba(255,255,255,0.02)"/>
     <text x="20" y="46" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="700"
@@ -64,18 +79,18 @@
     </rect>
   </g>
 
-  <!-- Ticker bar background -->
+  <!-- Ticker bar -->
   <g transform="translate(0,84)">
     <rect x="24" y="86" width="1152" height="44" rx="8" ry="8" fill="#060621" stroke="#102040" opacity="0.95"/>
     <rect x="24" y="86" width="1152" height="8" rx="8" ry="8" fill="url(#tickGrad)" opacity="0.45"/>
   </g>
 
-  <!-- Scrolling text (SINGLE LINE) -->
+  <!-- Scrolling text -->
   <g clip-path="url(#tickerClip)">
     <g id="tickerContent" transform="translate(1200,100)">
       <text x="0" y="18" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="20" font-weight="700"
             fill="#ffffff" filter="url(#textGlow)" style="letter-spacing:0.9px;">
-        ➤ Shaban MD MultiDevice WhatsApp Bot Deployment Platfrm Heroku Render Railway BotHosting Panel Free Host Site Any Vps Clouds Lightweight Very Fast Smoothly Working.
+        ➤ Shaban MD MultiDevice WhatsApp Bot Deployment Platform Heroku Render Railway BotHosting Panel Free Host Site Any VPS Cloud Lightweight Very Fast Smoothly Working.
       </text>
       <rect x="-120" y="-18" width="220" height="44" fill="url(#shimmer)" opacity="0.28">
         <animate attributeName="x" from="-420" to="1200" dur="4.2s" repeatCount="indefinite"/>
@@ -83,16 +98,5 @@
     </g>
     <animateTransform xlink:href="#tickerContent" attributeName="transform" type="translate"
                       from="1200 100" to="-1800 100" dur="40s" repeatCount="indefinite"/>
-  </g>
-
-  <!-- LIVE box -->
-  <g transform="translate(30,88)">
-    <rect x="0" y="0" width="100" height="36" rx="8" fill="#0b0f27" stroke="url(#neonGrad)" stroke-width="1"/>
-    <text x="36" y="23" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" font-weight="700"
-          fill="#dfe7ff">LIVE</text>
-    <circle cx="20" cy="18" r="6" fill="#ff4255">
-      <animate attributeName="r" values="6;9;6" dur="1.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0.4;1" dur="1.2s" repeatCount="indefinite"/>
-    </circle>
   </g>
 </svg>
