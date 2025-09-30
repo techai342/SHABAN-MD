@@ -63,11 +63,10 @@ ___
   </a>
 </p>
 
--------------
+
 
 <p align="center">
-  <img src="./Shaban/deployment-ticker.svg" width="500"/>
-</p>
+<img src="Shaban/deployment.svg" alt="Deploment" width="120"/>
 
 -------------
 
