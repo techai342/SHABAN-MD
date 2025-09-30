@@ -53,11 +53,11 @@
     <rect x="0" y="0" width="460" height="76" rx="10" fill="rgba(255,255,255,0.02)"/>
     <text x="20" y="46" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="700"
           font-size="38" fill="url(#neonGrad)" filter="url(#glow)" style="letter-spacing:0.6px;">
-      🕹️ DEPLOYMENTS ⏬
+      🕹️ DEPLOYMENTS
     </text>
     <text x="22" y="64" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="600"
           font-size="12" fill="#9aa0ff" opacity="0.9" style="letter-spacing:0.4px;">
-      Deployment Platfrm
+      Deployment Platform
     </text>
     <rect x="0" y="0" width="460" height="76" rx="10" fill="url(#shimmer)" opacity="0.35">
       <animate attributeName="x" from="-480" to="480" dur="3s" repeatCount="indefinite" />
@@ -75,7 +75,7 @@
     <g id="tickerContent" transform="translate(150,100)">
       <text x="0" y="18" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="20" font-weight="700"
             fill="#ffffff" filter="url(#textGlow)" style="letter-spacing:0.9px;">
-        ➤ Shaban MD Multi-Device WhatsApp Bot Deployment Platfrm Heroku Render Railway BotHosting Panel Free Host Site Any Vps Clouds Lightweight Very Fast Smoothly Working 🎉
+        ➤ Shaban MD MultiDevice WhatsApp Bot Deployment Platfrm Heroku Render Railway BotHosting Panel Free Host Site Any Vps Clouds Lightweight Very Fast Smoothly Working.
       </text>
 
       <rect x="-120" y="-18" width="220" height="44" fill="url(#shimmer)" opacity="0.28">
