@@ -65,7 +65,9 @@ ___
 
 -------------
 
-## _🕹️ DEPLOYMENTS_
+<p align="center">
+  <img src="./Shaban/deployment-ticker.svg" width="600" alt="SHABAN MD — News Deployment">
+</p>
 
 <div align="center">
   <table>
