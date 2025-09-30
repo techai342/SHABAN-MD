@@ -69,6 +69,8 @@ ___
   <img src="./Shaban/deployment-ticker.svg" width="200" alt="SHABAN MD — News Deployment">
 </p>
 
+-------------
+
 <div align="center">
   <table>
     <tr>
