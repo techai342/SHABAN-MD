@@ -1,102 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-label="Ticker - DEPLOYMENTS">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="96" viewBox="0 0 820 96" preserveAspectRatio="xMidYMid meet" role="img" aria-label="SHABAN MD Deployment Ticker">
   <defs>
-    <!-- Neon Gradient -->
-    <linearGradient id="neonGrad" x1="0" x2="1" y1="0" y2="0">
-      <stop offset="0" stop-color="#00f0ff"/>
-      <stop offset="0.4" stop-color="#8a2be2"/>
-      <stop offset="1" stop-color="#ff007a"/>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#071029"/>
     </linearGradient>
 
-    <!-- Shimmer effect for text highlight -->
-    <linearGradient id="shimmer" x1="0" x2="1">
-      <stop offset="0%" stop-color="white" stop-opacity="0"/>
-      <stop offset="50%" stop-color="white" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    <!-- Neon text gradient -->
+    <linearGradient id="neonGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#7CFFB2"/>
+      <stop offset="0.4" stop-color="#00E6FF"/>
+      <stop offset="0.8" stop-color="#9A7CFF"/>
+      <stop offset="1" stop-color="#FF6AA3"/>
     </linearGradient>
 
-    <!-- Ticker scroll background -->
-    <linearGradient id="tickGrad" x1="0" x2="1">
-      <stop offset="0%" stop-color="#0ff" stop-opacity="0.15"/>
-      <stop offset="50%" stop-color="#fff" stop-opacity="0.06"/>
-      <stop offset="100%" stop-color="#ff0" stop-opacity="0.12"/>
-    </linearGradient>
-
-    <!-- Glow filter -->
+    <!-- Soft glow filter -->
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <filter id="textGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <!-- Emboss -->
+    <filter id="emboss" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1" result="blur0"/>
+      <feOffset in="blur0" dx="0.8" dy="1" result="off1"/>
+      <feComposite in="SourceGraphic" in2="off1" operator="over"/>
     </filter>
 
-    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="2" y="0" fill="#000" opacity="0.06"/>
-    </pattern>
-
-    <!-- Clip path for ticker content -->
-    <clipPath id="tickerClip">
-      <rect x="0" y="86" width="1200" height="44" rx="6" ry="6"/>
-    </clipPath>
+    <!-- Fade mask -->
+    <linearGradient id="edgeFade" x1="0" x2="1">
+      <stop offset="0" stop-color="white" stop-opacity="0"/>
+      <stop offset="0.08" stop-color="white" stop-opacity="1"/>
+      <stop offset="0.92" stop-color="white" stop-opacity="1"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="fadeMask">
+      <rect x="0" y="0" width="820" height="96" fill="url(#edgeFade)"/>
+    </mask>
   </defs>
 
   <!-- Background -->
-  <rect width="100%" height="100%" fill="#020114"/>
-  <rect x="8" y="8" width="1184" height="124" rx="14" ry="14" fill="url(#scan)" opacity="0.06"/>
+  <rect x="0" y="0" width="820" height="96" rx="10" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="820" height="14" rx="10" fill="rgba(255,255,255,0.03)"/>
 
-  <!-- Live indicator -->
-  <rect x="24" y="48" width="12" height="92" rx="6" fill="url(#neonGrad)" filter="url(#glow)"/>
-  <g transform="translate(30,88)">
-    <rect x="0" y="0" width="100" height="36" rx="8" fill="#0b0f27" stroke="url(#neonGrad)" stroke-width="1"/>
-    <text x="36" y="23" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" font-weight="700" fill="#dfe7ff">LIVE</text>
-    <circle cx="20" cy="18" r="6" fill="#ff4255">
-      <animate attributeName="r" values="6;9;6" dur="1.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0.4;1" dur="1.2s" repeatCount="indefinite"/>
+  <!-- Ticker text -->
+  <g mask="url(#fadeMask)">
+    <g id="moveGroup" transform="translate(0,56)">
+      <text x="0" y="8" font-family="Segoe UI, Roboto, Arial, sans-serif"
+        font-weight="700" font-size="18" fill="url(#neonGrad)"
+        filter="url(#glow)" style="letter-spacing:1px"
+        dominant-baseline="middle">
+        🔽 SHABAN MD Deployment Platform HEROKU = RENDER = RAILWAY = FREE HOST = BOT HOSTING PANEL MultiDevice WhatsApp Bot Lightweight Very Fast Smoothly Working 24/7 🔽
+      </text>
+
+      <!-- second copy shifted further (extra gap) -->
+      <text x="1800" y="8" font-family="Segoe UI, Roboto, Arial, sans-serif"
+        font-weight="700" font-size="18" fill="url(#neonGrad)"
+        filter="url(#glow)" style="letter-spacing:1px"
+        dominant-baseline="middle">
+        🔽 SHABAN MD Deployment Platform HEROKU = RENDER = RAILWAY = FREE HOST = BOT HOSTING PANEL MultiDevice WhatsApp Bot Lightweight Very Fast Smoothly Working 24/7 🔽
+      </text>
+
+      <rect x="2" y="14" width="2800" height="20" rx="9" fill="rgba(255,255,255,0.02)" filter="url(#emboss)"/>
+    </g>
+  </g>
+
+  <!-- Decorative left icon (shifted up a bit) -->
+  <g transform="translate(18,20)">
+    <rect x="0" y="0" width="70" height="36" rx="6" fill="#061426" stroke="rgba(255,255,255,0.03)"/>
+    <text x="38" y="24" font-family="Segoe UI, Roboto, Arial, sans-serif"
+      font-size="12" font-weight="700" fill="url(#neonGrad)"
+      text-anchor="middle" filter="url(#glow)">SMD</text>
+
+    <!-- Green live dot -->
+    <circle cx="10" cy="18" r="5" fill="#00ff6a">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <!-- DEPLOYMENTS title box -->
-  <g transform="translate(48,20)">
-    <rect x="0" y="0" width="460" height="76" rx="10" fill="rgba(255,255,255,0.02)"/>
-    <text x="20" y="46" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="700"
-          font-size="38" fill="url(#neonGrad)" filter="url(#glow)" style="letter-spacing:0.6px;">
-      🕹️ DEPLOYMENTS
-    </text>
-    <text x="22" y="64" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="600"
-          font-size="12" fill="#9aa0ff" opacity="0.9" style="letter-spacing:0.4px;">
-      Deployment Templet Hain
-    </text>
-    <rect x="0" y="0" width="460" height="76" rx="10" fill="url(#shimmer)" opacity="0.35">
-      <animate attributeName="x" from="-480" to="480" dur="3s" repeatCount="indefinite" />
-    </rect>
-  </g>
+  <!-- Animation -->
+  <animateTransform
+    xlink:href="#moveGroup"
+    attributeName="transform"
+    type="translate"
+    from="0 56"
+    to="-1800 56"
+    dur="30s"
+    repeatCount="indefinite"
+    calcMode="linear"
+  />
 
-  <!-- Ticker bar -->
-  <g transform="translate(0,84)">
-    <rect x="24" y="86" width="1152" height="44" rx="8" ry="8" fill="#060621" stroke="#102040" opacity="0.95"/>
-    <rect x="24" y="86" width="1152" height="8" rx="8" ry="8" fill="url(#tickGrad)" opacity="0.45"/>
-  </g>
-
-  <!-- Scrolling text -->
-  <g clip-path="url(#tickerClip)">
-    <g id="tickerContent" transform="translate(1200,100)">
-      <text x="0" y="18" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="20" font-weight="700"
-            fill="#ffffff" filter="url(#textGlow)" style="letter-spacing:0.9px;">
-        ➤ Shaban MD MultiDevice WhatsApp Bot Deployment Platform Heroku Render Railway BotHosting Panel Free Host Site Any VPS Cloud Lightweight Very Fast Smoothly Working.
-      </text>
-      <rect x="-120" y="-18" width="220" height="44" fill="url(#shimmer)" opacity="0.28">
-        <animate attributeName="x" from="-420" to="1200" dur="4.2s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-    <animateTransform xlink:href="#tickerContent" attributeName="transform" type="translate"
-                      from="1200 100" to="-1800 100" dur="40s" repeatCount="indefinite"/>
-  </g>
+  <text x="22" y="88" font-family="Segoe UI, Roboto, Arial, sans-serif"
+    font-size="10" fill="rgba(255,255,255,0.45)">
+    SHABAN MD • Deployment Templeat ⏬
+  </text>
 </svg>
