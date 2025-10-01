@@ -39,7 +39,7 @@ ___
 <img src="Shaban/feature-bot.svg" alt="Feature Bot" width="900"/>
 
 <p align="center">
-<img src="Shaban/beta-v5.svg" alt="BETA-V5" width="125"/>
+<img src="Shaban/beta-v5.svg" alt="BETA-V5" width="100"/>
   
 <p align="center">
 <img src="Shaban/license.svg" alt="License" width="200"/>
@@ -63,12 +63,11 @@ ___
   </a>
 </p>
 
-
+-------------
 
 <p align="center">
-<img src="Shaban/deployment.svg" alt="Deploment" width="120"/>
-
--------------
+  <img src="./Shaban/deployment.svg" width="600" alt="SHABAN MD — News Ticker Typing">
+</p>
 
 <div align="center">
   <table>
@@ -86,8 +85,6 @@ ___
     </tr>
   </table>
 </div>
-
--------------
 
 -------------
 
