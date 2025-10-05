@@ -11,13 +11,6 @@ ___
   </a>
 </p>
 
-
-
-<p align="center">
-  <img src="./Shaban/typing-ticker.svg" width="600" alt="SHABAN MD — News Ticker Typing">
-</p>
-
-
   
 <p align="center">
   <a href="https://whatsapp.com/channel/0029Vb6aq4cCHDygiEqJZl0S" target="_blank">
