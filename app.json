@@ -1,8 +1,8 @@
 {
-  "name": "SHABAN-MD",
-  "description": "Javascript WhatsApp bot made by 𝐌𝐑 𝐒𝐇𝐀𝐁𝐀𝐍",
-  "logo": "https://ik.imagekit.io/mrshaban/Picsart_25-02-01_22-47-44-239.jpg",
-  "keywords": ["SHABAN-MD"],
+  "name": "SAQIB",
+  "description": "Javascript WhatsApp bot made by SAQIB",
+  "logo": "https://i.supaimg.com/09b17a6c-a286-4de0-b184-27e34289d750.jpg",
+  "keywords": ["SAQIB"],
   "success_url": "/",
   "stack": "container",
   "env": {
@@ -15,19 +15,19 @@
     "OWNER_NAME": {
       "description": "Type Bot Owner Name",
       "required": false,
-      "value": "Mʀ-Sʜᴀʙᴀɴ"
+      "value": "SAQIB"
     }, 
 
     "OWNER_NUMBER": {
       "description": "Put Your WhatsApp Number Link Device",
       "required": false,
-      "value": "923059395959"
+      "value": "92478936242"
     }, 
     
     "MENU_IMAGE_URL": {
       "description": "Add Your Imgae Url Bot Menu",
       "required": true,
-      "value": "https://files.catbox.moe/abrl88.jpg"
+      "value": "https://i.supaimg.com/09b17a6c-a286-4de0-b184-27e34289d750.jpg"
     }, 
       
     "PREFIX": {
@@ -81,7 +81,7 @@
     "BOT_NAME": {
       "description": "Type Here The Bot Name",
       "required": false,
-      "value": "SHABAN-MD V5"
+      "value": "SAQIB V5"
     },
     
     "ANTI_LINK": {
