@@ -25,7 +25,7 @@ PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://i.supaimg.com/09b17a6c-a286-4de0-b184-27e34289d750.jpg",
 // add custom menu and mention reply image url   
-BOT_NAME: process.env.BOT_NAME || "SHABAN-MD V5",
+BOT_NAME: process.env.BOT_NAME || "SAQIB-MD V5",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "SAQIB",
 // type sticker pack name 
@@ -33,7 +33,7 @@ CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself  
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923059395959",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "923478936242",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "MR-SAQIB",
 // add bot owner name
