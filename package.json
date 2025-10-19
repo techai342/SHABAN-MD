@@ -1,12 +1,12 @@
 {
-  "name": "SHABAN-MD",
+  "name": "SAQIB",
   "version": "5.0.0",
-  "description": "WhatsApp Bot created By Mr Shaban",
+  "description": "WhatsApp Bot created By Mr SAQIB",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name SHABAN-MD",
-    "stop": "pm2 stop SHABAN-MD",
-    "restart": "pm2 restart SHABAN-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name SAQIB",
+    "stop": "pm2 stop SQIB",
+    "restart": "pm2 restart SAQIB"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.19",
